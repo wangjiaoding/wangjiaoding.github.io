@@ -1,109 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>23122132131</title>
-    <url>/2023/12/02/23122132131/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>cdsaldjksodmksadjkdjkda</title>
-    <url>/2023/12/02/cdsaldjksodmksadjkdjkda/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>adasdasdasd</title>
-    <url>/2023/12/02/adasdasdasd/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>dsadadsdada</title>
-    <url>/2023/12/02/dsadadsdada/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>sdadasdasda</title>
-    <url>/2023/12/02/sdadasdasda/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>sdasdasdsadsads</title>
-    <url>/2023/12/02/sdasdasdsadsads/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>dasdsasd</title>
-    <url>/2023/12/02/dasdsasd/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>showinfo</title>
-    <url>/2023/12/02/showinfo/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>sdadasdkjdkwjkjidjisadjhiad</title>
-    <url>/2023/12/02/sdadasdkjdkwjkjidjisadjhiad/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>xcxzxczqsdqdsa</title>
-    <url>/2023/12/02/xcxzxczqsdqdsa/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>这是一个测试标题和分类的文章</title>
-    <url>/2023/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E6%A0%87%E9%A2%98%E5%92%8C%E5%88%86%E7%B1%BB%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello World\n&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
+    <title>[Git] Failed to connect to 127.0.0.1 port 10808: Connection refused</title>
+    <url>/2024/01/18/Failed-to-connect-to-127-0-0-1-port-10808-Connection-refused/</url>
+    <content><![CDATA[<p>[问题描述]<br>在执行git clone的时候，报错：Failed to connect to 127.0.0.1 port 10808: Connection refused<br>[问题解决]<br>一般是代理出了问题：</p>
+<figure class="highlight tcl"><table><tr><td class="code"><pre><span class="line">查询是否使用代理： git config --<span class="keyword">global</span> <span class="keyword">http</span>.proxy</span><br><span class="line">取消代理： git config --<span class="keyword">global</span> --<span class="keyword">unset</span> <span class="keyword">http</span>.proxy</span><br></pre></td></tr></table></figure>
+<p>之前因为Mac连不上Github，所以我加了如下代理，因此我的解决办法：</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">sudo git config <span class="attr">--global</span> <span class="attr">--unset</span> http<span class="selector-class">.https</span>:<span class="comment">//github.com.proxy</span></span><br><span class="line">sudo git config <span class="attr">--global</span> <span class="attr">--unset</span> https<span class="selector-class">.https</span>:<span class="comment">//github.com.proxy</span></span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>生活</tag>
+        <tag>Git</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>这是一个测试归档数量的结尾标记</title>
-    <url>/2023/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E5%BD%92%E6%A1%A3%E6%95%B0%E9%87%8F%E7%9A%84%E7%BB%93%E5%B0%BE%E6%A0%87%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>这是测试标签和分类的测试</title>
-    <url>/2023/12/02/%E8%BF%99%E6%98%AF%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB%E7%9A%84%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>这是一个测试默认生成文章格式的文章</title>
-    <url>/2023/12/02/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95%E9%BB%98%E8%AE%A4%E7%94%9F%E6%88%90%E6%96%87%E7%AB%A0%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/12/01/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2023/12/01/test/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
