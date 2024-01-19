@@ -11,4 +11,17 @@
         <tag>Git</tag>
       </tags>
   </entry>
+  <entry>
+    <title>ssh: connect to host github.com port 22: Connection timed out</title>
+    <url>/2024/01/19/ssh-connect-to-host-github-com-port-22-Connection-timed-out/</url>
+    <content><![CDATA[<p>[问题描述]<br>我是在将博客部署到github上的时候遇到的；</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">ssh: <span class="keyword">connect</span> <span class="keyword">to</span> host github.com port <span class="number">22</span>: <span class="keyword">Connection</span> timed <span class="keyword">out</span></span><br></pre></td></tr></table></figure>
+<p>[问题解决]</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">vim ~/.ssh<span class="built_in">/config</span></span><br><span class="line"><span class="built_in"></span></span><br><span class="line"><span class="comment"># 加上以下内容:</span></span><br><span class="line">Host github.com</span><br><span class="line">  Hostname ssh.github.com</span><br><span class="line"> <span class="built_in"> Port </span>443</span><br></pre></td></tr></table></figure>
+<p>之后就可以正常将博客部署到github上了</p>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
 </search>
